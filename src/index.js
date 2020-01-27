@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import App from './app';
+import { FormikApp } from './app';
 
-ReactDom.render(<App />, document.getElementById(`root`));
+ReactDom.render(<FormikApp email="heyhihello@gmail.com" />, document.getElementById(`root`));
